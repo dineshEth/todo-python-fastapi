@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi==0.141.1
+uvicorn==0.52.1
+python-dotenv==1.0.0
+
+# MongoDB
+pymongo==4.8.0
+
+# Authentication & Security
+jose[cryptography]==1.0.0
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+
+# Pydantic (for data validation)
+pydantic==2.13.4
+pydantic-settings==2.1.0
+email-validator==2.0.0
+
+# HTTP client
+httpx==0.27.0
+
+# Development dependencies
+annotated-types==0.7.0
+colorama==0.4.6
+click==8.4.2
+
+# Type checking (optional)
+typing-inspect==0.4.2
+typing_extensions==4.16.0
+
+# Code quality (optional)
+annotated-doc==0.0.5
+
+# Logging
+python-json-logger==2.0.7
